@@ -74,7 +74,7 @@ with st.expander("🔥 **Tendencias del Momento - Componentes & Periféricos** (
     with col_trend1:
         trending_geo = st.selectbox(
             "País",
-            ["ES", "PT", "FR", "IT", "DE"],
+            ["ES", "PT", "FR", "IT", "DE", "GB", "US"],
             format_func=lambda x: f"{COUNTRIES[x]['flag']} {COUNTRIES[x]['name']}",
             key="trending_geo"
         )
