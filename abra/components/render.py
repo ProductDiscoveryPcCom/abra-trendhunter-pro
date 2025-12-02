@@ -13,7 +13,7 @@ import html
 import plotly.graph_objects as go
 import plotly.express as px
 
-from abra.config.constants import PRODUCT_CATEGORIES
+from abra.config.constants import PRODUCT_CATEGORIES, CHANNELS
 
 
 

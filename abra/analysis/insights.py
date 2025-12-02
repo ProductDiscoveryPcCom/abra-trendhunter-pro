@@ -11,6 +11,8 @@ import json
 import html
 from urllib.parse import urlparse
 
+from abra.config.constants import COUNTRIES, CHANNELS, PRODUCT_CATEGORIES
+
 
 def extract_brand_from_url(url):
     """

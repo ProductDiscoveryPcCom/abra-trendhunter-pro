@@ -10,6 +10,8 @@ import re
 import json
 import html
 
+from abra.config.constants import COUNTRIES
+
 
 
 def get_relevance_badge(score):

@@ -1,6 +1,6 @@
 """
 Abra - Advanced Brand Research & Analysis
-Version 11.1.0
+Version 11.4.1
 
 A professional toolkit for brand intelligence and market research using
 Google Trends, SerpAPI, and advanced analytics.
@@ -15,7 +15,7 @@ Modules:
     utils: Utility functions
 """
 
-__version__ = "11.1.0"
+__version__ = "11.4.1"
 __author__ = "Abra Team"
 __license__ = "MIT"
 

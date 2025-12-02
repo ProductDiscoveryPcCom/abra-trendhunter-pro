@@ -12,6 +12,8 @@ import html
 
 import os
 
+from abra.config.constants import COUNTRIES, CHANNELS
+
 
 
 def save_analysis_to_history(brand, country, channel, results, filename="analysis_history.json"):
