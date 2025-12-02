@@ -5,15 +5,12 @@ from abra.ui.theme import APPLE_COLORS, QUERY_TYPE_COLORS, CHANNEL_COLORS
 
 COUNTRIES = {
     "ES": {"name": "España", "flag": "🇪🇸"},
-    "US": {"name": "Estados Unidos", "flag": "🇺🇸"},
-    "GB": {"name": "Reino Unido", "flag": "🇬🇧"},
-    "FR": {"name": "Francia", "flag": "🇫🇷"},
-    "DE": {"name": "Alemania", "flag": "🇩🇪"},
-    "IT": {"name": "Italia", "flag": "🇮🇹"},
     "PT": {"name": "Portugal", "flag": "🇵🇹"},
-    "MX": {"name": "México", "flag": "🇲🇽"},
-    "AR": {"name": "Argentina", "flag": "🇦🇷"},
-    "BR": {"name": "Brasil", "flag": "🇧🇷"}
+    "FR": {"name": "Francia", "flag": "🇫🇷"},
+    "IT": {"name": "Italia", "flag": "🇮🇹"},
+    "DE": {"name": "Alemania", "flag": "🇩🇪"},
+    "GB": {"name": "Reino Unido", "flag": "🇬🇧"},
+    "US": {"name": "Estados Unidos", "flag": "🇺🇸"}
 }
 
 CHANNELS = {
@@ -173,7 +170,7 @@ COLORS_CHANNEL = CHANNEL_COLORS
 LIMITS = {
     'max_queries_per_page': 50,
     'max_topics_display': 10,
-    'max_countries_comparison': 5,
+    'max_countries_comparison': 7,
     'max_brands_comparator': 4,
     'relevance_threshold_default': 10,
     'max_history_entries': 100,

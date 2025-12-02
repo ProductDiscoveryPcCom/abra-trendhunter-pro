@@ -35,7 +35,9 @@ def get_amazon_products(brand, country="es"):
         "PT": "amazon.es",  # Portugal usa .es
         "FR": "amazon.fr",
         "IT": "amazon.it",
-        "DE": "amazon.de"
+        "DE": "amazon.de",
+        "GB": "amazon.co.uk",
+        "US": "amazon.com"
     }
     
     params = {
