@@ -40,7 +40,7 @@ def render_manual_search(search_query: str, selected_countries: list,
                 st.stop()
             
             # NUEVO: Guardar automáticamente en histórico
-            from analysis.historical import save_analysis_to_history
+            from abra.analysis.historical import save_analysis_to_history
             for geo, data in results.items():
                 try:
                     save_analysis_to_history(
@@ -84,7 +84,7 @@ def render_manual_search(search_query: str, selected_countries: list,
             
             with col_exp1:
                 # Export CSV
-                from utils.helpers import export_to_csv
+                from abra.utils.helpers import export_to_csv
                 try:
                     csv_data = export_to_csv(results, search_query)
                     st.download_button(
@@ -111,7 +111,7 @@ def render_manual_search(search_query: str, selected_countries: list,
             
             with col_exp3:
                 # Export Excel
-                from utils.helpers import export_to_excel
+                from abra.utils.helpers import export_to_excel
                 try:
                     excel_data = export_to_excel(results, search_query)
                     st.download_button(
